@@ -1,0 +1,1 @@
+console.assert("d4c420be9d101669a27c1a8544e9497e57c52d7e");const e=Object.assign({"ENV_VAR_1":"ENV_VAR_1 demo1","ENV_VAR_2":"ENV_VAR_2 demo2","ENV_VAR_3":"ENV_VAR_3 demo3"},{BASE_URL:"/",MODE:"production",DEV:!1,PROD:!0});export{e};

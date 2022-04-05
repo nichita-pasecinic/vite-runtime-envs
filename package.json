@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "env-cmd --verbose -e dev vite",
     "build": "vite build",
-    "start:staging": "env-cmd --verbose -e staging npm run preview",
-    "start:demo": "env-cmd --verbose -e demo npm run preview",
-    "preview": "import-meta-env --example .env.example.public && vite preview"
+    "start:staging": "env-cmd -e staging npm run preview",
+    "start:demo": "env-cmd -e demo npm run preview",
+    "preview": "import-meta-env --example .env.example -o \"build/**/*\" && vite preview"
   },
   "dependencies": {
     "@import-meta-env/cli": "^0.1.7",
